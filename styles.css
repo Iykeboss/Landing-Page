@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay {
+    color: #0000ff;
+    font-family: tahoma;
+    margin-right: 20px;
+}
+
+button {
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    background-color: #0000ff;
+    right: 20px;
+    top: 0px;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.first {
+    width: 100%;
+    display: flex;
+    
+}
+
+.first .parent {
+    width: 50%;
+    text-align: left;
+}
+
+.ex {
+    font-family: arial;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+bdi {
+    color: #2424ff;
+}
+
+.bdi {
+    font-weight: bold;
+}
+
+.bdo {
+    color: #2424ff;
+}
+
+.us {
+    opacity: 0.5;
+    margin: 20px auto;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+input {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: solid #bfc5cc;
+    border-width: 0.3px;
+    width: 260px;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #2424ff;
+    margin-left: -45px;
+    width: inherit;
+    padding: 15px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;    
+    font-weight: bold;
+    margin: 70px auto;
+}
+
+.others {
+    opacity: 0.4;
+}
+
+.f {
+    color: #2424ff;
+    
+}
+
+.container {
+    width: 50%;
+}
+
+.contain {
+    background-color: #2424ff;
+    height: 440px;
+    border-radius: 40px;
+    width: 48%;
+    margin-top: 140px;
+    margin-left: 315px;
+    position: relative;
+}
+
+.contain img {
+    height: 500px;
+    width: 250px;
+    bottom: 30px;
+    position: absolute;
+    left: 29.5px;
+}
+
+.second {
+    background-color: #000000;
+    border-radius: 15px;
+    height: 350px;
+}
+
+.banking {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    margin: 70px 500px;
+}
+
+.banking bdi {
+    background-color: #2424ff;
+    color: #ffffff;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.holder .dif {
+    background-color: #f5f5f5;
+    width: 27%;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 160px;
+}
+
+.qr span {
+    position: absolute;
+    top: 900px;
+    left: 215px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.qr img {
+    height: 310px;
+    width: 200px;
+    position: absolute;
+    left: 170px;
+    top: 1000px;
+}
+
+.access img {
+    height: 270px;
+    width: 200px;
+    position: absolute;
+    left: 575px;
+    top: 861px;
+}
+
+.access span {
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 1230px;
+    left: 600px;
+}
+
+.control span {
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 900px;
+    right: 215px;
+}
+
+.control img {
+    height: 310px;
+    width: 200px;
+    position: absolute;
+    right: 170px;
+    top: 1000px;
+}
+
+.contain-a {
+    margin-top: 350px;
+}
+
+.contain-a p {
+    text-align: center;
+    font-size: 2.3em;
+    margin: 100px;
+}
+
+.contain-a img {
+    margin: -100px 410px 0;    
+}
+
+footer {
+    max-width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+}
+
+.foot-1 {
+    width: 50%;
+    margin: 20px;
+}
+
+.foot-2 {
+    width: 50%;
+    margin: 20px;
+    display: flex;
+}
+
+.bol {
+    font-weight: bold;
+    margin-inline: 45px;
+}
+
+.foot-2 p {
+    opacity: 0.5;
+    margin: 20px 45px
+}
